@@ -7,6 +7,12 @@ local plugins = {
 		end,
 	},
 	{
+		"christoomey/vim-tmux-navigator",
+	},
+	{
+		"szw/vim-maximizer",
+	},
+	{
 		"williamboman/mason.nvim",
 		opts = {
 			ensure_installed = {
@@ -35,10 +41,6 @@ local plugins = {
 			require("plugins.configs.lspconfig")
 			require("custom.configs.lspconfig")
 		end,
-	},
-	{
-		"christoomey/vim-tmux-navigator",
-		lazy = false,
 	},
 	{
 		"nvim-treesitter/nvim-treesitter",

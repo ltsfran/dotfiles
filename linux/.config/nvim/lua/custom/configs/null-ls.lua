@@ -16,9 +16,6 @@ local sources = {
 		diagnostics_format = "[eslint] #{m}\n(#{c})",
 	}),
 	null_ls.builtins.formatting.eslint_d,
-	null_ls.builtins.formatting.gofmt,
-	null_ls.builtins.formatting.goimports_reviser,
-	null_ls.builtins.formatting.golines,
 }
 
 null_ls.setup({

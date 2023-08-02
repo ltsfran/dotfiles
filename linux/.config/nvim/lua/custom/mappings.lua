@@ -9,6 +9,7 @@ M.general = {
 		["<leader>sh"] = { "<C-w>s" },
 		["<leader>se"] = { "<C-w>=" },
 		["<leader>sx"] = { ":close<CR>" },
+		["<leader>sm"] = { ":MaximizerToggle<CR>" },
 	},
 }
 
