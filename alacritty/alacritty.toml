@@ -1,3 +1,17 @@
+[env]
+TERM = "xterm-256color"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
 
 [cursor]
 style = "Block"
@@ -73,3 +87,4 @@ color = "#FAB387"
 [[colors.indexed_colors]]
 index = 17
 color = "#F5E0DC"
+
