@@ -8,9 +8,11 @@ local plugins = {
 	},
 	{
 		"christoomey/vim-tmux-navigator",
+		lazy = false,
 	},
 	{
 		"szw/vim-maximizer",
+		lazy = false,
 	},
 	{
 		"williamboman/mason.nvim",
